@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-ts-proj-client-side-solution",
+    "id": "1984d9dc-10d8-4600-8939-8ee0a3d3f620",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/my-ts-proj.sppkg"
+  }
+}

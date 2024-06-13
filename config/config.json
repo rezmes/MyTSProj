@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "t-slearn-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tSlearn/TSlearnWebPart.js",
+          "manifest": "./src/webparts/tSlearn/TSlearnWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TSlearnWebPartStrings": "lib/webparts/tSlearn/loc/{locale}.js"
+  }
+}
